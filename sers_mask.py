@@ -2,12 +2,7 @@ import nazca as nd
 
 
 class SlotWaveguide:
-    # TODO: Include text to label the waveguide. Label the taper zone, active region, Euler bend, etc.
-    # TODO: Support for inverted taper
-    # TODO: Consider 'using dict.values() in' as conditional logic
-    # TODO: Check if '_put' can be replaced with the corresponding nazca function
-    # TODO: Merge the _add functions into a single function
-
+    
     # Name of the cross-sections. Shared by all 'SlotWaveguide' objects
     _xs_wg = 'wg'
     _xs_t = 'taper'
