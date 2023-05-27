@@ -51,7 +51,7 @@ kwargs = prop
 # Store the waveguide properties
 waveguides = {i: [args.copy(), kwargs.copy()] for i in range(number_of_waveguides)}
 
-# Modify the waveguide properties
+# Modify the waveguide properties. Removing these declarations result in the creation of identical waveguides
 waveguides[1][1]['taper'] = False
 
 waveguides[2][1]['taper_out'] = False
