@@ -1,5 +1,5 @@
 import nazca as nd
-from sers_mask import SlotWaveguide
+from sersmask import SlotWaveguide
 
 # Specify the file to which the design is written
 export_path = ''
